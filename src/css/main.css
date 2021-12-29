@@ -1,0 +1,135 @@
+@-webkit-keyframes flip {
+  10% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(-100px);
+  }
+  30% {
+    transform: translateX(-200px);
+  }
+  40% {
+    transform: translateX(-300px);
+  }
+  50% {
+    transform: translateX(-300px) rotateY(180deg);
+  }
+  60% {
+    transform: translateX(-300px) rotateY(180deg);
+  }
+  70% {
+    transform: translateX(-200px) rotateY(180deg);
+  }
+  80% {
+    transform: translateX(-100px) rotateY(180deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+}
+@keyframes flip {
+  10% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(-100px);
+  }
+  30% {
+    transform: translateX(-200px);
+  }
+  40% {
+    transform: translateX(-300px);
+  }
+  50% {
+    transform: translateX(-300px) rotateY(180deg);
+  }
+  60% {
+    transform: translateX(-300px) rotateY(180deg);
+  }
+  70% {
+    transform: translateX(-200px) rotateY(180deg);
+  }
+  80% {
+    transform: translateX(-100px) rotateY(180deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+}
+.header-blog-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.footer-container {
+  margin-top: auto;
+  padding: 50px 0;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.5;
+  width: 80%;
+}
+.footer-container img {
+  float: right;
+  width: 7%;
+  -webkit-animation: flip 1.5s forwards;
+          animation: flip 1.5s forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.post-list-left {
+  width: 20%;
+  float: left;
+}
+.post-list-left img {
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+}
+
+.post-list-right {
+  width: 80%;
+  float: right;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.post-list-right p {
+  margin: 5px 0;
+}
+.post-list-right .post-list-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.post-list-right .post-list-date {
+  font-size: 12px;
+  color: rgba(128, 128, 128, 0.7);
+}
+.post-list-right .post-list-summary {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.post-list-item {
+  max-width: 1200px;
+  margin: 5px 0;
+  border: 1px solid rgba(230, 233, 238, 0.7);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  cursor: pointer;
+}
+
+.post-list-item::after {
+  clear: both;
+}
+
+.backspace {
+  position: fixed;
+  font-size: 72px;
+  color: rgba(128, 128, 128, 0.7);
+  cursor: pointer;
+  left: 10%;
+  top: 50%;
+  transform: translate(0, -50%);
+}/*# sourceMappingURL=main.css.map */

@@ -1,10 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `개츠비 한번`,
+    description: `개츠비 한번 해보았다`,
+    author: `KMS`,
+    siteUrl: 'https://1nno-vator.github.io/',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-canonical-urls',
+      options: {
+        siteUrl: 'https://1nno-vator.github.io/',
+        stripQueryString: true,
+      },
+    },
     {
       resolve: 'gatsby-plugin-typescript',
       options: {

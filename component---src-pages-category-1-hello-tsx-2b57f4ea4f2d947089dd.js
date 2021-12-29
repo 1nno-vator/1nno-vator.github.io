@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[353],{2833:function(t,e,u){u.r(e);u(7294);var a=u(3431);e.default=function(){return(0,a.tZ)("div",null,"헬로여유")}}}]);
+//# sourceMappingURL=component---src-pages-category-1-hello-tsx-2b57f4ea4f2d947089dd.js.map
